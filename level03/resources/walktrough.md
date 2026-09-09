@@ -12,9 +12,13 @@ We can see at the end of the Cmake that it includes and so execute this file : `
 
 We can't see what is the real path of this file but we can see that the user Level03 is part of the group : burbclave.
 
-This groups owns only one folder : `find / -type d -group burbclave 2>/dev/null
-/var/lib/burbclave
-/var/lib/burbclave/staging`
+This groups owns only one folder : `find / -type d -group burbclave 2>/dev/null` 
+
+
+
+`/var/lib/burbclave`
+
+`/var/lib/burbclave/staging`
 
 We can deduct that the `RESOLVED_BUILD_PATH` is thsi folder `/var/lib/burbclave/staging`.
 
